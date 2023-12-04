@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Mono&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* topo */
+ section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rgba(220, 220, 220, 0.253);
+}
+.topo{
+    background-color: rgba(0, 0, 139, 0.699);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+.topo a{
+    text-decoration: none;
+    padding: 0px 30px;
+    color: white;
+    border: 3px solid black;
+    border-radius: 40px;
+    background-color: black;
+}
+/* meio */
+.banner{
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+.sobre{
+    text-align: center;
+    padding: 55px 0;
+}
+.sobre p{
+    padding: 20px 0;
+    width: 500px;
+}
+.sobre h1, p{
+    color: white;
+}
+.container-sobre{
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 45px 5px;
+    border-radius: 5%;
+    box-shadow: 2px 6px 3px black;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+.title{
+    font-size: 25px;
+    padding: 70px 0;
+}
+.container-jogos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-jogos img{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 6px 6px 6px black;
+}
+.card{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    width: 850px;
+    gap: 30px;
+}
+.container-jogos p{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 22px;
+}
+.localização h1{
+    padding-bottom: 50px;
+}
+.localização{
+    text-align: center;
+    padding: 120px 0 300px;
+    font-size:22px;
+}
+.container-local{
+    width: 100%;
+    height: 500px;
+}
+.localização h1::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url("/img/aviao.png");
+    background-size: cover;
+    background-position: center;
+}
+iframe{
+    box-shadow: 3px 6px 6px black;
+    border-radius: 10px;
+    height: 100%;
+    width: 90%;
+}
+/* rodape */
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 20px 0 10px 0;
+    align-content: center;
+    gap: 100px;
+}
+footer a{
+    padding: 0 10px;
+}
